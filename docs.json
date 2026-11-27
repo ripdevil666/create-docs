@@ -43,18 +43,6 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Roblox.com",
-        "href": "https://www.roblox.com"
-      },
-      {
-        "label": "Studio",
-        "href": "https://create.roblox.com"
-      }
-    ]
-  },
   "errors": {
     "404": {
       "redirect": false,
