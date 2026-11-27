@@ -1,0 +1,122 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Roblox Learning Docs",
+  "colors": {
+    "primary": "#335FFF",
+    "light": "#4C75FF",
+    "dark": "#335FFF"
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
+  "background": {
+    "color": {
+      "dark": "#111215",
+      "light": "#F7F7F8"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "index",
+              "guides/quickstart",
+              "guides/studio-overview"
+            ]
+          },
+          {
+            "group": "Scripting & Luau",
+            "pages": [
+              "guides/scripting/luau-basics",
+              "guides/scripting/variables-functions",
+              "guides/scripting/events-callbacks"
+            ]
+          },
+          {
+            "group": "Building & Physics",
+            "pages": [
+              "guides/building/parts-models",
+              "guides/building/lighting-environment"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "Engine API",
+            "pages": [
+              "reference/engine/overview",
+              "reference/engine/classes",
+              "reference/engine/datatypes",
+              "reference/engine/enums"
+            ]
+          },
+          {
+            "group": "Luau Libraries",
+            "pages": [
+              "reference/libraries/math",
+              "reference/libraries/string",
+              "reference/libraries/table",
+              "reference/libraries/task"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Tutorials",
+        "groups": [
+          {
+            "group": "Core Mechanics",
+            "pages": [
+              "tutorials/create-obby",
+              "tutorials/combat-system",
+              "tutorials/datastore-saving"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Creator Hub",
+          "href": "https://create.roblox.com",
+          "icon": "cube"
+        },
+        {
+          "anchor": "GitHub Repository",
+          "href": "https://github.com",
+          "icon": "github"
+        }
+      ]
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Community",
+        "href": "https://devforum.roblox.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Start Building",
+      "href": "/guides/quickstart"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com",
+      "youtube": "https://youtube.com",
+      "discord": "https://discord.com"
+    }
+  }
+}
