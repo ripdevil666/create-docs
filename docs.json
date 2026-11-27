@@ -21,43 +21,22 @@
     "tabs": [
       {
         "tab": "Learn",
-        "groups": [
+        "languages": [
           {
-            "group": "Home",
+            "language": "en",
+            "default": true,
             "pages": [
               "index"
             ]
           },
           {
-            "group": "Docs",
+            "language": "en",
+            "default": true,
             "pages": [
               "docs/experiences",
               "docs/avatar",
               "docs/assets",
               "docs/programs-and-policies"
-            ]
-          },
-          {
-            "group": "APIs and Tools",
-            "pages": [
-              "apis-and-tools/engine",
-              "apis-and-tools/studio",
-              "apis-and-tools/open-cloud",
-              "apis-and-tools/analytics"
-            ]
-          },
-          {
-            "group": "Resources",
-            "pages": [
-              "resources/get-started",
-              "resources/tutorials",
-              "resources/code-and-assets"
-            ]
-          },
-          {
-            "group": "More",
-            "pages": [
-              "more/overview"
             ]
           }
         ]
@@ -75,5 +54,11 @@
         "href": "https://create.roblox.com"
       }
     ]
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "Thử Lại"
+    }
   }
 }
