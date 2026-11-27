@@ -1,79 +1,93 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
-  "name": "Roblox",
+  "name": "Roblox Creator Docs Style",
+  "theme": "maple",
   "colors": {
-    "primary": "#335FFF",
-    "light": "#4C75FF",
-    "dark": "#335FFF"
-  },
-  "appearance": {
-    "default": "dark",
-    "strict": true
-  },
-  "background": {
-    "color": {
-      "dark": "#111215",
-      "light": "#111215"
-    }
+    "primary": "#3B82F6",
+    "light": "#2563EB",
+    "dark": "#60A5FA"
   },
   "navigation": {
     "tabs": [
       {
-        "tab": "Learn",
-        "languages": [
+        "tab": "Guides",
+        "groups": [
           {
-            "language": "en",
-            "default": true,
-            "groups": [
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              "index",
+              "studio-setup",
               {
-                "group": "Home",
+                "group": "Luau Fundamentals",
+                "icon": "code",
+                "expanded": false,
                 "pages": [
-                  "index"
+                  "luau/variables-and-types",
+                  "luau/functions-and-loops",
+                  {
+                    "group": "Tables & Metatables",
+                    "icon": "braces",
+                    "expanded": false,
+                    "pages": [
+                      "luau/tables/arrays-dictionaries",
+                      "luau/tables/metatables-oop"
+                    ]
+                  }
                 ]
               },
               {
-                "group": "Docs",
+                "group": "Client - Server Architecture",
+                "icon": "network",
+                "expanded": true,
                 "pages": [
-                  "docs/experiences",
-                  "docs/avatar",
-                  "docs/assets",
-                  "docs/programs-and-policies"
+                  "architecture/remote-events",
+                  "architecture/remote-functions",
+                  "architecture/security-best-practices"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Gameplay Systems",
+            "icon": "gamepad-2",
+            "pages": [
+              {
+                "group": "Combat & Abilities",
+                "icon": "swords",
+                "expanded": false,
+                "pages": [
+                  "gameplay/combat/hitboxes",
+                  "gameplay/combat/cooldowns-states"
                 ]
               },
               {
-                "group": "APIs and Tools",
+                "group": "UI & HUD",
+                "icon": "layout",
+                "expanded": false,
                 "pages": [
-                  "apis-and-tools/engine",
-                  "apis-and-tools/studio",
-                  "apis-and-tools/open-cloud",
-                  "apis-and-tools/analytics"
-                ]
-              },
-              {
-                "group": "Resources",
-                "pages": [
-                  "resources/get-started",
-                  "resources/tutorials",
-                  "resources/code-and-assets"
-                ]
-              },
-              {
-                "group": "More",
-                "pages": [
-                  "more/overview"
+                  "gameplay/ui/tween-service",
+                  "gameplay/ui/responsive-scaling"
                 ]
               }
             ]
           }
         ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Instances",
+            "icon": "box",
+            "pages": [
+              "api/workspace",
+              "api/players",
+              "api/run-service"
+            ]
+          }
+        ]
       }
     ]
-  },
-  "errors": {
-    "404": {
-      "redirect": false,
-      "title": "Thử Lại"
-    }
   }
 }
