@@ -1,53 +1,23 @@
 {
-  "siteName": "Roblox Learning Docs",
-  "domain": "robloxlearning.com",
-  "theme": "dark",
-  "authEnabled": false,
-  "navigation": [
-    {
-      "section": "Overview",
-      "items": [
-        {
-          "title": "Overview",
-          "slug": "overview",
-          "file": "content/learn/overview.mdx"
-        },
-        {
-          "title": "Get started",
-          "slug": "get-started",
-          "file": "content/learn/get-started.mdx"
-        }
-      ]
+  "leftRail": {
+    "width": "200px",
+    "collapsible": true,
+    "hideSidebarLabel": "Hide sidebar",
+    "showSignIn": false,
+    "brand": {
+      "label": "CREATOR",
+      "href": "/"
     },
-    {
-      "section": "Create",
-      "items": [
-        {
-          "title": "Projects",
-          "children": [
-            {
-              "title": "Overview",
-              "slug": "projects-overview",
-              "file": "content/learn/projects/overview.mdx"
-            },
-            {
-              "title": "Games and places",
-              "slug": "games-and-places",
-              "file": "content/learn/projects/games-and-places.mdx"
-            }
-          ]
-        },
-        {
-          "title": "Scripting",
-          "children": [
-            {
-              "title": "Luau basics",
-              "slug": "luau-basics",
-              "file": "content/learn/scripting/luau-basics.mdx"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    "menu": [
+      { "id": "home", "label": "Home", "href": "/", "active": false },
+      { "id": "learn", "label": "Learn", "href": "/learn", "active": true },
+      { "id": "store", "label": "Store", "href": "/store", "active": false },
+      { "id": "forum", "label": "Forum", "href": "/forum", "active": false },
+      { "id": "updates", "label": "Updates", "href": "/updates", "active": false }
+    ],
+    "footerLinks": [
+      { "id": "roblox", "label": "Roblox.com", "href": "https://www.roblox.com", "external": true },
+      { "id": "studio", "label": "Studio", "href": "https://create.roblox.com", "external": true }
+    ]
+  }
 }
