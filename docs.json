@@ -10,80 +10,50 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
-        "groups": [
+        "tab": "Roblox",
+        "languages": [
           {
-            "group": "Getting Started",
-            "icon": "rocket",
-            "pages": [
-              "index",
-              "studio-setup",
+            "language": "en",
+            "default": true,
+            "groups": [
               {
-                "group": "Luau Fundamentals",
-                "icon": "code",
-                "expanded": false,
+                "group": "Home",
                 "pages": [
-                  "luau/variables-and-types",
-                  "luau/functions-and-loops",
-                  {
-                    "group": "Tables & Metatables",
-                    "icon": "braces",
-                    "expanded": false,
-                    "pages": [
-                      "luau/tables/arrays-dictionaries",
-                      "luau/tables/metatables-oop"
-                    ]
-                  }
+                  "index"
                 ]
               },
               {
-                "group": "Client - Server Architecture",
-                "icon": "network",
-                "expanded": true,
+                "group": "Docs",
                 "pages": [
-                  "architecture/remote-events",
-                  "architecture/remote-functions",
-                  "architecture/security-best-practices"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Gameplay Systems",
-            "icon": "gamepad-2",
-            "pages": [
-              {
-                "group": "Combat & Abilities",
-                "icon": "swords",
-                "expanded": false,
-                "pages": [
-                  "gameplay/combat/hitboxes",
-                  "gameplay/combat/cooldowns-states"
+                  "experiences",
+                  "docs/avatar",
+                  "docs/assets",
+                  "docs/programs-and-policies"
                 ]
               },
               {
-                "group": "UI & HUD",
-                "icon": "layout",
-                "expanded": false,
+                "group": "APIs and Tools",
                 "pages": [
-                  "gameplay/ui/tween-service",
-                  "gameplay/ui/responsive-scaling"
+                  "apis-and-tools/engine",
+                  "apis-and-tools/studio",
+                  "apis-and-tools/open-cloud",
+                  "apis-and-tools/analytics"
+                ]
+              },
+              {
+                "group": "Resources",
+                "pages": [
+                  "resources/get-started",
+                  "resources/tutorials",
+                  "resources/code-and-assets"
+                ]
+              },
+              {
+                "group": "More",
+                "pages": [
+                  "more/overview"
                 ]
               }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "Instances",
-            "icon": "box",
-            "pages": [
-              "api/workspace",
-              "api/players",
-              "api/run-service"
             ]
           }
         ]
