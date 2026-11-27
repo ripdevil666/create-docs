@@ -1,5 +1,50 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Roblox Learning Docs"
+  "name": "Roblox Learning Docs",
+  "colors": {
+    "primary": "#335FFF",
+    "light": "#4C75FF",
+    "dark": "#335FFF"
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
+  "background": {
+    "color": {
+      "dark": "#111215",
+      "light": "#F7F7F8"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Learn",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "index",
+              "learn/get-started"
+            ]
+          },
+          {
+            "group": "Create",
+            "pages": [
+              "learn/projects/overview",
+              "learn/projects/games-and-places",
+              "learn/scripting/luau-basics"
+            ]
+          },
+          {
+            "group": "Scale",
+            "pages": [
+              "learn/discovery"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
