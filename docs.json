@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Roblox Learning Docs",
+  "name": "Learn",
   "colors": {
     "primary": "#335FFF",
     "light": "#4C75FF",
@@ -14,7 +14,7 @@
   "background": {
     "color": {
       "dark": "#111215",
-      "light": "#F7F7F8"
+      "light": "#111215"
     }
   },
   "navigation": {
@@ -23,27 +23,56 @@
         "tab": "Learn",
         "groups": [
           {
-            "group": "Overview",
+            "group": "Home",
             "pages": [
-              "index",
-              "learn/get-started"
+              "index"
             ]
           },
           {
-            "group": "Create",
+            "group": "Docs",
             "pages": [
-              "learn/projects/overview",
-              "learn/projects/games-and-places",
-              "learn/scripting/luau-basics"
+              "docs/experiences",
+              "docs/avatar",
+              "docs/assets",
+              "docs/programs-and-policies"
             ]
           },
           {
-            "group": "Scale",
+            "group": "APIs and Tools",
             "pages": [
-              "learn/discovery"
+              "apis-and-tools/engine",
+              "apis-and-tools/studio",
+              "apis-and-tools/open-cloud",
+              "apis-and-tools/analytics"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "resources/get-started",
+              "resources/tutorials",
+              "resources/code-and-assets"
+            ]
+          },
+          {
+            "group": "More",
+            "pages": [
+              "more/overview"
             ]
           }
         ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Roblox.com",
+        "href": "https://www.roblox.com"
+      },
+      {
+        "label": "Studio",
+        "href": "https://create.roblox.com"
       }
     ]
   }
